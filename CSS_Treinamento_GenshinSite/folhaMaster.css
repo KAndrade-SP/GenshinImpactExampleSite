@@ -1,0 +1,160 @@
+
+.headerFundo {
+    background-color: hsla(244, 100%, 89%, 1);
+    background-image: url("imgIndex/fundoHeader.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.logoMain {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 1em;
+    padding-top: 0.5em;
+}
+
+.banner {
+    height: auto;
+    max-width: 100%;
+}
+
+.banner2 {
+    height: auto;
+    width: 600px;
+    max-width: 100%;
+}
+
+.navComplement {
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    background-color: hsla(244, 100%, 6%, 1);
+    font-family: 'optimusweb', 'Arial';
+}
+
+.fontModify1 {
+    color: white;
+    margin-left: 2em;
+}
+
+.breadModify {
+    padding-top: 0.5em;
+    margin-bottom: auto;
+}
+
+.cardStyle {
+    width: 18rem;
+    float: left;
+    position: relative;
+}
+
+.cardStyle2 {
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    font-weight: bold;
+}
+
+.h1Modify {
+    text-align: center;
+    display: block;
+    border-radius: 2px;
+    font-family: 'optimusweb', 'Arial';
+}
+
+.h2Modify {
+    text-align: center;
+    display: block;
+    border-radius: 2px;
+    font-family: 'optimusweb', 'Arial';
+}
+
+@font-face { /*Declaração de fonte personalizada*/
+    font-family: optimusweb;
+    src: url(font/fonts/OptimusPrinceps.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fontModify2 {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.fontModify3 {
+    font-family: 'optimusweb', 'Arial';
+    color: white;
+    margin-left: 2em;
+}
+
+.fontModify4 {
+    font-family: 'optimusweb', 'Arial';
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.fontModify5 {
+    font-family: 'optimusweb', 'Arial';
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.fontModify6 {
+  font-family: 'optimusweb', 'Arial';
+  letter-spacing: 1px;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.divMod {
+    padding-top: 1em;
+}
+
+.divMod2 {
+    padding-top: 0.5em;
+}
+
+.pag3Fundo {
+    background-image: url("imgPag3/genshinFundo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#carouselSlide {
+    background-image: url("imgPag3/carouselBack.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.charactersImgModify {
+    height: 350px;
+    width: 500px;
+    max-width: 100%;
+}
+
+.charactersImgModify2 {
+    height: 350px;
+    width: 500px;
+    max-width: 100%;
+}
+
+.elementImgModify {
+    margin-top: 25px;
+    width: 350px;
+    height: 350px;
+    max-width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
+.elementImgModify2 {
+    height: 10em;
+    width: 10em;
+    max-width: 100%;
+}
+
+.card-body2 {
+    height: 400px;
+}

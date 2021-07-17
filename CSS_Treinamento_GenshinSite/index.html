@@ -1,0 +1,165 @@
+<!--Página principal do site Portal Genshin
+#Data de última modificação: 09/12/2020
+#Autor: Kaique Andrade Silva Viana
+
+Todo o site foi desenvolvido utilizando bootstrap com customizações de uma folha externa de css.-->
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Portal Genshin</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Confira informações e curiosidades sobre o universo de Genshin Impact!">
+        <meta name="keywords" content="paimon, anime, genshin, impact, mihoyo, portal">
+        <meta name="author" content="Kaique Andrade Silva Viana">
+        <meta name="viewport" content="width=device-width, initial scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="folhaMaster.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
+    </head>
+    <body>
+        <div class="container-fluid background headerFundo">
+            <header> <!--Início do site, declaração de um cabeçalho-->
+                <div class="row">
+                    <div class="col"></div>
+                        <div class="col">
+                            <img class="logoMain" src="imgIndex/genshinLogo.png">
+                        </div>
+                    <div class="col"></div>
+                </div>
+                <div class="row navbar nav-fill justify-content-center navComplement"> <!--Navegação do header contendo três páginas-->
+                    <nav>
+                        <a class="nav-item nav-link-active fontModify1" href="index.html">Início</a>
+                        <a class="nav-item nav-link-active fontModify1" href="pag2Noticias.html">Notícias</a>
+                        <a class="nav-item nav-link-active fontModify1" href="pag3Historia.html">História</a>
+                    </nav>
+                </div>
+            </header>
+        </div>
+        <!--Abaixo foi feito um breacrumb simples com bootstrap-->
+        <div class="container-fluid background nav-fill breadModify fontModify3">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active" aria-current="page">Início</li>
+                    <li class="breadcrumb-item"><a href="pag2Noticias.html">Notícias</a></li>
+                    <li class="breadcrumb-item"><a href="pag3Historia.html">História</a></li>
+                </ol>
+            </nav>
+        </div>
+        <!--Título da página-->
+        <div class="container-fluid background"> <!--Container para que os itens se desloquem com fluidez no fundo na página, preenchendo espaço-->
+            <div class="row justify-content-center">
+                <div class="col-md">
+                    <h1 class="card h1Modify">Portal Genshin</h1>
+                </div>
+            </div>
+            <div class="row">
+                <!--Aqui foi inserido um card usando bootstrap com o evento do mês resumido com link redirecionado para a página de notícias-->
+                <div class="col-sm card text-center cardStyle">
+                    <img class="card-img-top" src="imgIndex/gliding_challenge.png" alt="Evento do Mês">
+                    <div class="card-body">
+                        <h5 class="card-title fontModify5">Desafio Planador</h5>
+                        <p class="card-text fontModify4">Conclua desafios utilizando seu planador e receba recompensas incriveís
+                        por cada conquista realizada!</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="pag2Noticias.html" class="card-link fontModify4">Saiba mais...</a>
+                    </div>
+                </div>
+                <!--Parte de inserção do personagem do mês-->
+                <div class="col-md-9 justify-content-center">
+                    <h2 class="card h2Modify">Zhongli: O mais novo suporte do elemento Geo!</h2>
+                    <div class="justify-content-center">
+                        <img class="banner rounded" src="imgIndex/zhongliBanner.jpg" alt="Foto Personagem Mensal" title="Zhongli">
+                    </div>
+                </div>
+            </div>
+            <!--Parte de comentários sobre o personagem e as notícias mais repercutidas envolvendo o personagem-->
+            <div class="container-fluid background divMod">
+                <div class="row justify-content-center">
+                    <div class="col-md card-text fontModify2">
+                        <p>Zhongli foi inserido no catálogo de personagens recentemente e já trouxe opiniões bem
+                          divergentes em todos os lugares onde o jogo pode ser acessado. Muitos jogadores
+                          questionavam o fato de Zhongli ser um personagem de 5 estrelas devido à sua baixa
+                          taxa de dano, foi assim que a Mihoyo, empresa desenvolvedora do jogo teve que se
+                          pronunciar sobre tal fato.</p>
+
+                          <!--Abaixo foi inserido um "blockquote" que foi disponibilizado pela parte de
+                          incorporações do próprio Twitter, onde eles disponibilizam um código completo
+                          para exibir a postagem completa em seu site, como esse site não será disponibilizado
+                          de maneira comercial, não haverá problemas, foi utlizado isso apenas para dar um exemplo
+                          de uso de um iframe que foi pesquisado e inserido desta maneira:
+                          <div class="embed-responsive embed-responsive-21by9">
+                              <iframe class="embed-responsive-item" src="https://twitter.com/GenshinImpact/status/1335951479996260352"></iframe>
+                          </div>
+                          Porém, a conexão de início foi recusada, sendo necessária a cópia do código disponibilizado
+                          pelo twitter para incorporar a postagem no site.
+
+                          Aqui o link de onde foi pego o código: https://publish.twitter.com/?query=https%3A%2F%2Ftwitter.com%2FGenshinImpact%2Fstatus%2F1335951479996260352&widget=Tweet-->
+
+                        <div class="row">
+                            <div class="col-sm">
+                                <blockquote class="twitter-tweet">
+                                    <p lang="en" dir="ltr">Dear Travelers,<br><br>We have recently received a lot of
+                                      feedback from Travelers regarding issues with the character Zhongli.
+                                      <br><br>We&#39;d like to take this opportunity to have a conversation with everyone —
+                                      to share our thinking on Zhongli:
+                                      <a href="https://t.co/rorKTn4ILD">https://t.co/rorKTn4ILD</a>
+                                      <a href="https://twitter.com/hashtag/GenshinImpact?src=hash&amp;ref_src=twsrc%5Etfw">
+                                      #GenshinImpact</a>
+                                      <a href="https://twitter.com/hashtag/Zhongli?src=hash&amp;ref_src=twsrc%5Etfw">#Zhongli</a>
+                                      <a href="https://t.co/XzzczB0pC0">pic.twitter.com/XzzczB0pC0</a>
+                                    </p>&mdash; Paimon (@GenshinImpact)
+                                      <a href="https://twitter.com/GenshinImpact/status/1335951479996260352?ref_src=twsrc%5Etfw">
+                                      December 7, 2020</a>
+                                </blockquote>
+                                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </div>
+                            <div class="col-sm divMod2 fontModify2">
+                                <p>Na postagem há um link para um artigo com as resoluções sobre Zhongli, com as
+                                    especificações claras de que ele não é um personagem focado em dano, e sim em
+                                    aguentar o dano dos inimigos e ao mesmo tempo fornecer suporte à equipe, houve
+                                    uma confusão da maioria dos jogadores que esperavam que tal personagem
+                                    desenvolvesse função diferente, porém, não é esse o caso.
+                                    Toda essa repercussão levaram a um <em>hate</em> desnecessário encima de um
+                                    personagem que exerce muito a função que lhe foi dada.
+                                    <br><br>
+                                    Zhongli se demonstra um ótimo suporte afinal de contas, garantindo uma sobrevivência
+                                    maior de qualquer membro que esteja junto com ele na mesma equipe.
+                                    <br><br>
+                                    Confira abaixo o trailer oficial do personagem:
+                                </p>
+                                <!--Inserção de um iframe com um vídeo, mais especificamente, um trailer do personagem-->
+                                <div class="embed-responsive embed-responsive-21by9">
+                                    <iframe class="embed-responsive-item" src="videoIndex/zhongliTrailer.mp4"
+                                    controls>
+                                    </iframe>
+                                </div>
+                                <p class="divMod2 fontModify2">Zhongli estreou no jogo em um banner em conjunto com outros três
+                                personagens 4 estrelas, <strong>Xinyan</strong>, de visão Pyro, <strong>Razor</strong> com sua visão
+                                Electro e <strong>Chongyun</strong> dotado de uma visão Cryo, confira abaixo o
+                                banner oficial presente atualmente em Genshin Impact:</p>
+                                <div class="embed-responsive embed-responsive-21by9">
+                                    <img class="embed-responsive-item" src="imgIndex/zhongliBanner2.jpg"></img>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Inserção de footer com um tag nav pois haveria redirecionamentos para páginas de contato entre responsáveis pelo FAQ e usuários-->
+        <div class="container-fluid background divMod">
+            <footer>
+              <div class="row navbar nav-fill justify-content-center navComplement">
+                  <nav>
+                      <a class="nav-item nav-link-active fontModify3" href="#">Sobre</a>
+                      <a class="nav-item nav-link-active fontModify3" href="#">Contatos</a>
+                      <a class="nav-item nav-link-active fontModify3" href="#">Ajuda</a>
+                  </nav>
+              </div>
+            </footer>
+        </div>
+    </body>
+</html>
